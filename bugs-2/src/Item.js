@@ -1,12 +1,13 @@
 import React from "react";
 
-export default function Item() {
+ const  Item = (props) => {
   return (
-    <div className="">
+    <div className="item">
       <input type="checkbox" />
-      {this.props.item}
+      {props.item}
     </div>
   );
 }
 
 
+export default Item
